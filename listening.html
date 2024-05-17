@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+			
+			
+			<link  href="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.11.6/viewer.css" rel="stylesheet">
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.11.6/viewer.js"></script>
+			
+			<script src="https://cdn.statically.io/gh/vidya-hub/open-google-translator/main/dist/bundle.js"></script>
+			<script src='https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js'></script>
+			<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+			
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link href="./_app/immutable/assets/4.BdPV8ApO.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.BI0FUbyo.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/entry.CclFluEY.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.DmJUFOV3.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.vqUL1Jfk.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.BzuXekSF.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.D9WAo_tI.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.CotZ05rY.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/4.W7Ax6IqQ.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.CxEoLzBV.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/each.D6YF6ztN.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">  <div id="taskbar" class="svelte-1cfpnl6"><div class="container svelte-bwr350"><div class="group1 svelte-bwr350"><select id="font" class="svelte-bwr350"><option value="cursive" data-svelte-h="svelte-1k6q69w">cursive</option><option value="fantasy" data-svelte-h="svelte-1pbs1vw">fantasy</option><option value="serif" data-svelte-h="svelte-1cj7lti">serif</option><option value="monospace" data-svelte-h="svelte-1plolne">monospace</option><option value="&quot;Times New Roman&quot;" data-svelte-h="svelte-7qx0nw">Times New Roman</option></select> <select id="size" class="svelte-bwr350"><option value="1" data-svelte-h="svelte-vo49q4">1</option><option value="2" data-svelte-h="svelte-1nij4gs">2</option><option value="2.5" data-svelte-h="svelte-oa1vke">2.5</option><option value="3" data-svelte-h="svelte-k7o0su">3</option><option value="3.5" data-svelte-h="svelte-120gso4">3.5</option><option value="4" data-svelte-h="svelte-jcp44c">4</option><option value="4.5" data-svelte-h="svelte-ihgnuy">4.5</option></select> <button id="enterText" class="svelte-bwr350" data-svelte-h="svelte-1k2z3zn"><span class="material-symbols-outlined svelte-bwr350">edit_square
+        </span>edit</button></div> <button id="dic" class="extrabut svelte-bwr350" data-svelte-h="svelte-1p2pce6"><span class="material-symbols-outlined svelte-bwr350">dictionary
+            </span>dictionary</button> </div></div> <div id="conLis" class="svelte-1cfpnl6"><textarea id="textarea" spellcheck="false" readonly class="svelte-7un7za"></textarea> <div id="contaitask" class="svelte-1cfpnl6"><div id="answersheet" class="svelte-1ip66iy"><h1 class="svelte-1ip66iy" data-svelte-h="svelte-86d40r"><span class="material-symbols-outlined svelte-1ip66iy">dashboard
+      
+          </span>Answer Sheet</h1> <div id="answercontain"></div> </div></div></div> <div id="containerDictionary" style="transform: translate(60vh)" class="svelte-wimyuz"><div id="containSearch" class="svelte-wimyuz"><input type="text" id="enterWord" spellcheck="false" autocomplete="off" class="svelte-wimyuz"> <button id="SearchDic" class="svelte-wimyuz" data-svelte-h="svelte-afpneo">&gt;&gt;</button></div> <div id="containerDic" class="svelte-wimyuz"></div> </div>  
+			
+			<script>
+				{
+					__sveltekit_147mfz3 = {
+						base: new URL(".", location).pathname.slice(0, -1)
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.BI0FUbyo.js"),
+						import("./_app/immutable/entry/app.BzuXekSF.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 4],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
+<style> 
+		
+
+	body{
+		margin: 0;
+		padding: 0;
+		background-color: #fefefe;
+		overflow: hidden;
+	}
+	input, button, select, textarea{
+		border:0;
+	
+		margin:0;
+	}
+	input, button, select, textarea, div:focus{
+		outline:0;
+	}
+
+	span{
+		border-radius: 1vh;
+    padding-inline: 1vh;
+	}
+
+		
+	</style>

@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+			
+			
+			<link  href="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.11.6/viewer.css" rel="stylesheet">
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.11.6/viewer.js"></script>
+			
+			<script src="https://cdn.statically.io/gh/vidya-hub/open-google-translator/main/dist/bundle.js"></script>
+			<script src='https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js'></script>
+			<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+			
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link href="./_app/immutable/assets/6.DhotRRQo.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.BI0FUbyo.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/entry.CclFluEY.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.DmJUFOV3.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.vqUL1Jfk.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.BzuXekSF.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.D9WAo_tI.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.CotZ05rY.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/6.BaqNVXiY.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/each.D6YF6ztN.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.CxEoLzBV.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">  <div id="taskbar" class="svelte-15k90sh"><div id="containerExtra" class="svelte-njdz3l"><div id="containsuggest" class="svelte-njdz3l"></div> <div id="containgesture" class="svelte-njdz3l"><button id="add" class="svelte-1vkpsqc" data-svelte-h="svelte-1membrr">add</button> <button id="remove" class="svelte-1vkpsqc" data-svelte-h="svelte-1ed1fsq">remove</button> <button id="next" class="svelte-1vkpsqc" data-svelte-h="svelte-lxkzi1">next</button> <button id="dic" class="extrabut svelte-njdz3l" data-svelte-h="svelte-1p2pce6"><span class="material-symbols-outlined svelte-njdz3l">dictionary
+            </span>dictionary</button></div> </div></div> <div id="mainArea" class="svelte-h9ahnt"><div id="enterBoard" style="transform:translate(0, 0);" class="svelte-16xs084"><div class="containTitName svelte-16xs084"><div class="containTitleName svelte-otpse6"><span class="material-symbols-outlined svelte-otpse6" style="color:undefined;">keyboard_arrow_right</span> <textarea style="color:undefined;" rows="1" type="text" class="words svelte-otpse6" id="inputForm0" spellcheck="false" lang="en" autocomplete="off"></textarea> <textarea style="background-color: undefined; color: undefined;" rows="1" type="text" class="means svelte-otpse6" spellcheck="false" lang="en" autocomplete="off"></textarea> </div></div> </div>  </div> <div id="containerDictionary" style="transform: translate(60vh)" class="svelte-wimyuz"><div id="containSearch" class="svelte-wimyuz"><input type="text" id="enterWord" spellcheck="false" autocomplete="off" class="svelte-wimyuz"> <button id="SearchDic" class="svelte-wimyuz" data-svelte-h="svelte-afpneo">&gt;&gt;</button></div> <div id="containerDic" class="svelte-wimyuz"></div> </div> 
+			
+			<script>
+				{
+					__sveltekit_147mfz3 = {
+						base: new URL(".", location).pathname.slice(0, -1)
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.BI0FUbyo.js"),
+						import("./_app/immutable/entry/app.BzuXekSF.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 6],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
+<style> 
+		
+
+	body{
+		margin: 0;
+		padding: 0;
+		background-color: #fefefe;
+		overflow: hidden;
+	}
+	input, button, select, textarea{
+		border:0;
+	
+		margin:0;
+	}
+	input, button, select, textarea, div:focus{
+		outline:0;
+	}
+
+	span{
+		border-radius: 1vh;
+    padding-inline: 1vh;
+	}
+
+		
+	</style>
